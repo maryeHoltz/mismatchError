@@ -1,0 +1,24 @@
+{
+  "name": "cypressfailure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "10.4.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^11.4.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "esbuild": "^0.14.48"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "filterSpecs": true,
+    "omitFiltered": true
+  }
+}
